@@ -20,6 +20,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DEV MIND",
   description: "DEV MIND Web page",
+  icons: {
+    icon: "/icon.ico"
+  }
 };
 
 export default function RootLayout({
