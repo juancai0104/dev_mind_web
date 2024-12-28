@@ -10,7 +10,7 @@ interface IconProps {
 
 type IconType = React.ComponentType<IconProps>;
 
-export const MOCKDATA = [
+const MOCKDATA = [
   {
     icon: IconDatabase,
     title: 'Información que recopilamos',
