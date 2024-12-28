@@ -80,13 +80,13 @@ export const MOCKDATA = [
   },
 ];
 
-interface FeatureProps {
+interface PrivacyPolicyFeatureProps {
   icon: IconType;
   title: React.ReactNode;
   description: React.ReactNode;
 }
 
-export function Feature({ icon: Icon, title, description }: FeatureProps) {
+export function PrivacyPolicyFeature({ icon: Icon, title, description }: PrivacyPolicyFeatureProps) {
   return (
     <div>
       <ThemeIcon variant="light" size={40} radius={40}>
@@ -115,7 +115,7 @@ export function Feature({ icon: Icon, title, description }: FeatureProps) {
 }
 
 export default function PrivacyPolicyPage() {
-  const features = MOCKDATA.map((feature, index) => <Feature {...feature} key={index} />);
+  const features = MOCKDATA.map((feature, index) => <PrivacyPolicyFeature {...feature} key={index} />);
 
   return (
     <Container className={classes.wrapper}>
