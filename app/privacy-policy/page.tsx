@@ -1,4 +1,4 @@
-import { IconCookie, IconDatabase, IconFileText, IconGauge, IconLock, IconMail, IconMessage2, IconSettings, IconShare, IconShieldCheck, IconTrash, IconUser, IconUserCheck } from '@tabler/icons-react';
+import { IconDatabase, IconFileText, IconMail, IconSettings, IconShare, IconShieldCheck, IconTrash, IconUserCheck } from '@tabler/icons-react';
 import { Container, SimpleGrid, Text, ThemeIcon, Title } from '@mantine/core';
 import classes from './PrivacyPolicy.module.css';
 
