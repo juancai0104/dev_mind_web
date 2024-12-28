@@ -2,6 +2,14 @@ import { IconDatabase, IconFileText, IconMail, IconSettings, IconShare, IconShie
 import { Container, SimpleGrid, Text, ThemeIcon, Title } from '@mantine/core';
 import classes from './PrivacyPolicy.module.css';
 
+interface IconProps {
+  size?: number;
+  stroke?: number;
+  color?: string;
+}
+
+type IconType = React.ComponentType<IconProps>;
+
 export const MOCKDATA = [
   {
     icon: IconDatabase,
@@ -73,7 +81,7 @@ export const MOCKDATA = [
 ];
 
 interface FeatureProps {
-  icon: React.FC<any>;
+  icon: IconType;
   title: React.ReactNode;
   description: React.ReactNode;
 }
