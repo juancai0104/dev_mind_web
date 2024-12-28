@@ -86,7 +86,7 @@ interface PrivacyPolicyFeatureProps {
   description: React.ReactNode;
 }
 
-export function PrivacyPolicyFeature({ icon: Icon, title, description }: PrivacyPolicyFeatureProps) {
+function PrivacyPolicyFeature({ icon: Icon, title, description }: PrivacyPolicyFeatureProps) {
   return (
     <div>
       <ThemeIcon variant="light" size={40} radius={40}>
